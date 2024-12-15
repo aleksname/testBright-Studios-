@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerContantContainer{
+}
+.headerContantSpoilerLine {
+    background-color: #C10001;;
+    padding: 6px;
+    margin-bottom: 2px;
+}
+
+.spoilerLineContant {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.headerContantFisrtLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 12px;
+}
+
+.headerLogotypeContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.headerLogoIcon {
+    width: 220px;
+    padding-left: 12px;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+.headerInputBlock {
+    display: flex;
+    flex-grow: 1; 
+    margin-right: 40px;
+}
+.inputHeaderSearch {
+    background-color: #333333;
+    width: 51px;
+    height: 51px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputHeader {
+    flex-grow: 1;
+    padding: 17px 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.inputHeader::placeholder{
+    /* font-family: "Open Sans", serif; */
+    color: #3333337a;
+    font-weight: 500;
+    font-size: 14px;
+}
+.headerInputIcon {
+    width: 24px;
+    height: auto; 
+}
+
+
+.headerSalesIconContainer {
+    max-width: 190px;
+    min-width: 190px;
+}
+/* ---header second line---- */
+.headerContantSecondLine{
+    padding: 15px 50px 20px 20px;
+    border-bottom: 1px solid #7b7b7b;
+}
+.secondLineElementContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.secondLineElement{
+    display: flex;
+    text-decoration: none;
+    color: #333333;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+}
+.secondLineElementContent,
+.secondLineElementContentTemp{
+    font-weight: 500;
+    font-size: 14px;
+     font-family: "Open Sans", serif;
+    font-style: normal;
+}
+.secondLineElementContentTemp{
+    display: flex;
+    align-items: center;
+}
+.temp{
+    color: rgb(148, 19, 19);
+    font-weight: 600;
+    font-size: 17px;
+}
+.secondLineElementIcon{
+    margin-right: 8px;
+    max-width: 24px;
+    min-width: 24px;
+}
+
+@media (max-width: 1200px){
+    .secondLineElementContainer{
+        padding: 0 10px 0 10px;
+    }
+}
+@media (max-width: 1024px){
+    .secondLineElement,
+    .secondLineElementContentTemp{
+        display: block;
+        text-align: center;
+    }
+}
+/* main */
+main{
+    padding: 20px;
+}
+/* --------footer--- */
+.footerContantContainer,
+.footerContentMediaLine,
+.footerContentMediaLinePayProduct{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 80px;
+}
+.footerContentMediaLine,
+.footerContentMediaLinePayProduct{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+.footerElementImg{
+    max-height: 34px;
+    min-height: 34px;
+    max-width: 73px;
+}
+.footerContentMediaLine{
+    border-right: 2px solid rgba(128, 128, 128, 0.664);
+}
+.footerContantContainerDownloadLine{
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px 20px;
+    background-color: #f7f7f7;
+}
+.footerDowndLoatParagraf{
+    width: 385px;
+}
+.footerContentMediaLinePayProduct .footerMediaElement:first-of-type{
+    margin-left: 20px;
+}
+.footerContentMediaLine .footerMediaElement:last-of-type{
+    margin-right: 60px;
+}
+
+.storeIcon{
+    min-width: 135px;
+    max-width: 135px;
+}
+.storeIcon:first-of-type{
+    margin-right: 30px;
+}
+
+.footerLogotype{
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 61px;
+}
+.footerContantContainerNavigation,
+.footerContantContainerNavigation2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerContantContainerNavigation{
+    padding: 0 10px;
+}
+.footerContantContainerNavigation2{
+    padding: 0 60px;
+}
+.footerContantNavigationElement{
+    padding:  20px;
+}
+.footerNavigationLink{
+    text-decoration: none;
+    color: #333333b5;
+}
+.footerDropdownContainer{
+    display: flex;
+    border: #3333337a 1px solid;
+    align-items: center;
+    padding: 11px 22px 11px 10px;
+}
+.footerDropdownContainerName{
+    margin-right: 100px;
+}
+
+.footerContantContainerC{
+    display: flex;
+    justify-content: center;
+    padding: 8px 8px 10px;
+}
+.footerNavigationLink2{
+    color: black;
+}
